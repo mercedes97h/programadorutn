@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer pagina HTML</title>
+</head>
+
+<body>
+    <!--comentario en html-->
+    <!-- la etiqueta h1 se puede utilizar una sola vez por html  -->
+    <!-- estas etiquetas son para encabezado -->
+    <h1>encabezado 1</h1>
+    <h2>encabezado 2</h2>
+    <h3>encabezado 3</h3>
+    <h4>encabezado 4</h4>
+    <h5>encabezado 5</h5>
+    <h6>encabezado 6</h6>
+    <h2>quienes somos</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, doloremque nemo? Fuga, ipsum, eligendi suscipit
+        autem laboriosam ex sint libero blanditiis voluptas delectus a atque recusandae mollitia hic? Modi, eius!</p>
+    <h2>ejemplo listas</h2>
+    <ul>
+        <li>Holanda</li>
+        <li>Inglaterra</li>
+        <li>Brasil</li>
+    </ul>
+    <ol>
+        <li>Holanda</li>
+        <li>Inglaterra</li>
+        <li>Brasil</li>
+    </ol>
+    <h2>Vinculo</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum esse at, totam ad numquam quae quasi dolorem,
+        nobis minus, explicabo nihil! Blanditiis neque quis veritatis excepturi aliquid libero exercitationem quod!<a
+            href="https://drive.google.com/file/d/11PKHOlrqduVGCpLedri40OQjEyG1grkY/view" target="_blank"> AQUI </a></a>
+    </p>
+    <h2>Trabajamos con imagenes</h2>
+    <img src="foto.jpg" alt="foto">
+    <img src="img/suiza.jpg" alt="suiza">
+    <h2>Complete el siguiente formulario</h2>
+    <form action="">
+        <p>
+            <label for="">Nombre</label>
+            <input type="text">
+        </p>
+        <p>
+            <input type="text" placeholder="Apellido">
+        </p>
+        <p>
+            <label for="pass">Contraseña</label>
+            <input type="password" name="pass">
+        </p>
+    <label for="sexo">sexo</label>
+        <ul>
+            <li>
+                <input type="radio" name="sexo" value="hombre">
+                <label for="Hombre"></label>
+            </li>
+            <li>
+                <input type="radio" name="sexo" value="mujer">
+                <label for="Mujer"></label>
+            </li>
+        </ul>
+        <label> Hobbies </label>
+        <ul>
+            <li>
+                <input type="checkbox" name="hobbies[]" value="pintar" id="pintar">
+                <label for="pintar">pintar</label>
+            </li>
+            <li>
+                <input type="checkbox" name="hobbies" value="surfear" id="surfear">
+                <label for="surfear">surfear</label>
+            </li>
+            <li>
+                <input type="checkbox" name="hobbies" value="skateboard" id="skateboard">
+                <label for="skateboard">skateboard</label>
+            </li>
+        </ul>
+        <p>
+            <label for="titulo">titulo</label>
+            <select name="titulo">
+                <option value="primario">Primario</option>
+                <option value="secundario">secundario</option>
+                <option value="terciario">terciario</option>
+                <option value="universitario">universitario</option>
+            </select>
+        </p>
+        <p>
+            <label for="comentarios">comentarios</label>
+            <textarea name="comentarios" cols="30" rows="10">comentarios</textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </p>
+    </form>
+
+</body>
+
+</html>
